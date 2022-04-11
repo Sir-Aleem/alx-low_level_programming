@@ -17,7 +17,7 @@ putchar((c1 % 10) + '0');
 putchar(' ');
 putchar((c2 / 10) + '0');
 putchar((c2 % 10) + '0');
-if (c1 == 8 && c2 == 9)
+if (c1 == 98 && c2 == 99)
 {
 break;
 }
