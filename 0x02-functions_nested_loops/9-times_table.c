@@ -33,7 +33,7 @@ _putchar((k % 10) + '0');
 }
 j++;
 }
+_putchar('\n');
 i++;
 }
-_putchar('\n');
 }
