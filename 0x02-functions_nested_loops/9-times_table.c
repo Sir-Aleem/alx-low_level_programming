@@ -13,7 +13,7 @@ j = 0;
 while (j < 10)
 {
 int k = i * j;
-if (k == 0)
+if (k == 0 && j == 0)
 {
 _putchar(k + '0');
 }
