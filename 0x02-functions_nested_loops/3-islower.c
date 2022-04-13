@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - Entry point
- *@c is the params
+ *@c: the int to print
  * Return: 0 or 1
  */
 int _islower(int c)
