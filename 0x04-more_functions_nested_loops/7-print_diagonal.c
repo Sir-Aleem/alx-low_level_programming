@@ -12,9 +12,14 @@ if (n > 0)
 int i;
 for (i = 0; i < n; i++)
 {
-_putchar('\\');
+int b;
+for (b = 0; b < i; b++)
+{
+_putchar(' ');
 }
+_putchar('\\');
 _putchar('\n');
+}
 }
 else
 {
