@@ -10,9 +10,9 @@ int k;
 for (k = 48; k < 58; k++)
 {
 if (k == 50)
-break;
-if (k == 52)
-break;
+continue;
+else if (k == 52)
+continue;
 _putchar(k);
 }
 _putchar('\n');
