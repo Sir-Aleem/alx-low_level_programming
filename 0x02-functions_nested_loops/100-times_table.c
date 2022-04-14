@@ -14,7 +14,7 @@ for (i = 0; i <= n; i++)
 for (j = 0; j <= n; j++)
 {
 int k = i * j;
-if (k == 0 && j == 0)
+if (k == 0)
 {
 _putchar(k + '0');
 }
