@@ -18,7 +18,7 @@ if (k == 0 && j == 0)
 {
 _putchar(k + '0');
 }
-if (k <= 9)
+if (k >= 0 && k <= 9)
 {
 _putchar(',');
 _putchar(' ');
