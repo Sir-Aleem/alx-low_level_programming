@@ -13,13 +13,13 @@ int i;
 for (i = 0; i < size; i++)
 {
 int j;
-for (j = 0; j < ((size - 1) - i); j++)
+for (j = 0; j < size; j++)
+{
+if ((size - i - 1) > j)
 {
 _putchar(' ');
 }
-int k;
-for (k = 0; k <= i; k++)
-{
+else
 _putchar('#');
 }
 _putchar('\n');
