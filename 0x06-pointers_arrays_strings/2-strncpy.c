@@ -12,6 +12,7 @@ int j;
 for (j = 0; j < n; j++)
 {
 dest[j] = src[j];
+dest[j] = '\0';
 }
 return (dest);
 }
