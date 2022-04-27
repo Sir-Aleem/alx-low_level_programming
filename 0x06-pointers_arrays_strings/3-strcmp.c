@@ -2,7 +2,7 @@
 /**
  * _strcmp - Entry point
  * @s1: char
- * @s2: char 
+ * @s2: char
  *
  * Return: int
  */
