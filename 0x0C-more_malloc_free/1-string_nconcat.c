@@ -27,7 +27,7 @@ s = malloc(sizeof(char) * (i + n + 1));
 else
 s = malloc(sizeof(char) * (i + j + 1));
 
-if (s == NULL)
+if (!s)
 return (NULL);
 
 for (k = 0; k < i; k++)
