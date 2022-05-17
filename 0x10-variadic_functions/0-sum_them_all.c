@@ -22,8 +22,6 @@ for (i = 0; i < n; i++)
 num = va_arg(ap, int);
 sum += num;
 }
-
-va_end(ap);
 return (sum);
 }
 
