@@ -15,10 +15,13 @@ va_list ap;
 va_start(ap, n);
 
 unsigned int i;
-int sum = 0;
+int sum = 0, num;
 
 for (i = 0; i < n; i++)
-sum += va_arg(ap, int);
+{
+num = va_arg(ap, int);
+sum += num;
+}
 
 va_end(ap);
 return (sum);
