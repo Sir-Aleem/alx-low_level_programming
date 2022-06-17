@@ -18,15 +18,10 @@ _putchar(ERR_MSG[i]);
 _putchar(10);
 exit(98);
 }
-
 if (_isdigit(argv[1]) == 0)
-
 printf("%s\n", argv[1]);
-
 return (0);
-
 }
-
 /**
  * _isdigit - checks if string is a number or not
  * @s: the string to be checked
